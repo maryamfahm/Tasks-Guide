@@ -62,11 +62,13 @@ const Chat = () => {
           onChange={(e) => setInput(e.target.value)}
           placeholder="Enter your prompt"
           style={{
-            padding: "50px",
+            padding: "10px",
             borderRadius: "5px",
             border: "1px solid #ddd",
-            width: "100px",
-            marginRight: "10px",
+            width: "400px",
+            marginRight: "20px",
+            alignContent: "center",
+            
           }}
         />
         <button style={styles.button} onClick={handleLearn}>
